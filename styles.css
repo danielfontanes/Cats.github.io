@@ -1,0 +1,31 @@
+body{
+    padding: 2em;
+    background-color: burlywood;
+}
+
+#gallery{
+    
+    columns: 4 320px;
+    column-gap: 1em;
+}
+
+h1{
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    -webkit-text-stroke: 5px black;
+}
+h1 span{
+    all: initial;
+    font-size: 1em;
+}
+
+.cat{
+    display: block;
+    max-width: 100%;
+    margin-bottom: 1em;
+    background-color: black;
+    padding: 3px;
+}
+
